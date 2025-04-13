@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduPredict - International Student Forecasting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- Decorative Wave Background -->
+    <div id="wave-background"></div>
+
+    <!-- Header -->
+    <header id="main-header"></header>
+
+    <!-- Navigation Tabs -->
+    <nav id="navigation-tabs"></nav>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 py-10">
+        <section id="home" class="tab-content"></section>
+        <section id="dashboard" class="tab-content hidden"></section>
+        <section id="upload" class="tab-content hidden"></section>
+        <section id="powerbi" class="tab-content hidden"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 mt-20 mb-6">
+        Built by Team 2 · Powered by SARIMAX · Hosted on GitHub Pages
+    </footer>
+
+    <!-- Scripts -->
+    <script src="sections/wave-background.js"></script>
+    <script src="sections/header.js"></script>
+    <script src="sections/tabs.js"></script>
+    <script src="sections/home.js"></script>
+    <script src="sections/dashboard.js"></script>
+    <script src="sections/upload.js"></script>
+    <script src="sections/powerbi.js"></script>
+    <script src="home-summary.js"></script>
+    <script src="upload-handler.js"></script>
+    <script src="sections/utils.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+/* style.css - Custom styling overrides */
+
+body {
+    scroll-behavior: smooth;
+}
+
+.tab-button {
+    transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+    transform: scale(1.05);
+}
+
+input[type="file"] {
+    background-color: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+input[type="file"]:hover {
+    background-color: #e0f2fe;
+}
+
+/* Custom toast animations (optional) */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.toast {
+    animation: fadeInOut 3s ease-in-out;
+}
