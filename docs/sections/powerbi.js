@@ -7,14 +7,6 @@ document.getElementById("powerbi").innerHTML = `
   </div>
 
   <div class="relative w-full max-w-6xl mx-auto rounded overflow-hidden shadow-lg aspect-video">
-    <iframe
-      title="TEAM_2_PROJECT_7_DASHBOARD"
-      width="100%"
-      height="100%"
-      src="https://app.powerbi.com/reportEmbed?reportId=4378cf6f-ec79-4d5d-b52c-6c0bc4f1a427&autoAuth=true&ctid=3c71cbab-b5ed-4f3b-ac0d-95509d6c0e93"
-      frameborder="0"
-      allowfullscreen="true"
-      class="w-full h-[80vh] rounded"
-    ></iframe>
+    <iframe title="TEAM_2_PROJECT_7_DASHBOARD" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=4378cf6f-ec79-4d5d-b52c-6c0bc4f1a427&autoAuth=true&ctid=3c71cbab-b5ed-4f3b-ac0d-95509d6c0e93" frameborder="0" allowFullScreen="true"></iframe>
   </div>
 `;
