@@ -1,1 +1,1 @@
-"# EduPredictTool" 
+"The EDU Predict Tool is a comprehensive data science project aimed at forecasting enrolment trends for international students in U.S. higher education institutions. Utilizing advanced machine learning and time-series forecasting techniques, the project delivers a scenario-based forecasting model that feeds into an interactive Power BI dashboard. This solution is designed to assist policymakers and academic administrators in making data-driven decisions related to student enrolment and institutional planning." 
