@@ -1,6 +1,6 @@
-## Setup Instructions and Environment Requirements
+# Setup Instructions and Environment Requirements
 
-### 🛠️ Local Setup Instructions
+## 🛠️ Local Setup Instructions
 
 1. **Clone the Repository**
 
@@ -37,7 +37,7 @@ Open any `.ipynb` such as `ARIMA_FORECAST_OTHER_COLUMNS_ACADEMIC.ipynb` to view 
 
 ---
 
-### 🧩 Folder Structure (Key Files)
+## 🧩 Folder Structure (Key Files)
 
 ```
 EduPredictTool/
@@ -50,11 +50,12 @@ EduPredictTool/
 
 ---
 
-### 🧪 Environment Requirements
+## 🧪 Environment Requirements
 
 * Python 3.8 or higher
 * Power BI Desktop (for .pbix file)
 * Git (for cloning)
 * Browser (for viewing GitHub Pages)
 
+---
 
